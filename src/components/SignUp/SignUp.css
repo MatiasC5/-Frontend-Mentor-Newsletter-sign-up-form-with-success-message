@@ -14,7 +14,7 @@
   line-height: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  margin: auto;
 }
 
 h1 {
@@ -41,6 +41,8 @@ ul li {
   list-style: none;
   text-align: left;
   width: 100%;
+  display: flex;
+  gap: 10px;
 }
 
 form {
@@ -52,6 +54,13 @@ label,
 button {
   font-style: normal;
   font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+label {
+  color: #252641;
+  margin-left: 5px;
+  margin-top: 30px;
 }
 
 input,
@@ -67,11 +76,25 @@ button {
   font-size: 16px;
   color: white;
   background-color: #232742;
-  margin-top: 30px;
   border: none;
   cursor: pointer;
+  margin-top: 30px;
 }
 
 .sign-up-illustration {
   margin-left: 40px;
+}
+
+button:hover {
+  background: -webkit-linear-gradient(to right, #ea2675, #f27121);
+  background: linear-gradient(to right, #ea2675, #f27121);
+}
+
+input:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+input:hover::placeholder {
+  color: black;
 }

@@ -11,15 +11,19 @@ export const SignUp: React.FC = () => {
         <ul>
           <li>
             {" "}
-            <img src={IconList} alt="list-icon" /> Product discovery and
-            building what matters
+            <img
+              src={IconList}
+              alt="list-icon"
+              className="icon-list-logo"
+            />{" "}
+            Product discovery and building what matters
           </li>
           <li>
-            <img src={IconList} alt="list-icon" /> Measuring to ensure updates
-            are a success
+            <img src={IconList} alt="list-icon" className="icon-list-logo" />{" "}
+            Measuring to ensure updates are a success
           </li>
           <li>
-            <img src={IconList} alt="list-icon" />
+            <img src={IconList} alt="list-icon" className="icon-list-logo" />
             And much more!
           </li>
         </ul>
