@@ -42,7 +42,7 @@ ul li {
   text-align: left;
   width: 100%;
   display: flex;
-  gap: 10px;
+  gap: 25px;
 }
 
 form {
@@ -61,6 +61,17 @@ label {
   color: #252641;
   margin-left: 5px;
   margin-top: 30px;
+}
+
+.err-message {
+  text-align: right;
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.error-message {
+  border: solid 1px red;
 }
 
 input,
